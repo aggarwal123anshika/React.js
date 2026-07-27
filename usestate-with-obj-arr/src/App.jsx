@@ -1,7 +1,10 @@
 // import { useState } from 'react'
 
 // import CartItem from "./Components/CartItem"
-import ToDoList from "./Components/ToDoList"
+// import Cart from "./Components/Cart"
+import Hotel from "./Components/Hotel"
+// import UserProfile from "./Components/UserProfile"
+// import ToDoList from "./Components/ToDoList"
 // import Profile from "./Components/profile"
 
 function App() {
@@ -10,7 +13,10 @@ function App() {
    <>
   {/* <Profile /> */}
   {/* <CartItem /> */}
-  <ToDoList />
+  {/* <ToDoList /> */}
+  {/* <UserProfile /> */}
+  <Hotel />
+  {/* <Cart /> */}
    </>
   )
 }

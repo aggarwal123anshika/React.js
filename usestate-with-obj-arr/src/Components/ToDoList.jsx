@@ -14,7 +14,7 @@ const ToDoList = () => {
     <div>
       {/* <button onClick={addTask}>Add Task</button> */}
       <form onSubmit={(e) => addTask(e)}>
-            <input placeholder="Enter the name"/>
+            <input placeholder="Enter The ToDo"/>
             <button>Submit</button>
       </form>
 
