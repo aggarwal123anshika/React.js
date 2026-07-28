@@ -1,16 +1,17 @@
 // import React from 'react'
 
-import { useState } from "react"
+// import { useState } from "react"
 
-  const Quantity = () => {
-    const [qty,setQty] = useState(1)
-    const price = 500
+// import { useState } from "react"
+
+  const Quantity = ({qty, setQty}) => {
+    
   return (
     <div>
         <h2>Item : Butter Chicken</h2>
-        <button>+</button>
+        <button onClick={() => setQty(qty + 1)}>+</button>
         <span>{qty}</span>
-        <button>-</button>
+        <button onClick={() => setQty(qty - 1)}>-</button>
     </div>
   )
 }
